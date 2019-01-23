@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 mongoose.connect(db).then(() => console.log(`Connected to ${db}...`));
 
 app.get('/', (req, res) => {
-    res.send('Hesoyan!!!');
+    res.send('Hesoyan elastic beanstalk!!!');
 });
 
 
